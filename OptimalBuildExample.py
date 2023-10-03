@@ -4,8 +4,8 @@ import matplotlib.pyplot as plt
 from GeneticAlgorithm import DNA, Population
 from NeptunesPrideUtilities import Player, NeptunesPrideData
 
-API_KEY = "Nktay1"
-GAME_ID = 6113070671462400
+API_KEY = "PUT IN YOUR GAME KEY AS A STRING"
+GAME_ID = "PUT IN YOUR GAME ID AS AN INTEGER"
 
 # Get the game data from API_KEY and GAME_ID (unique to the player and game)
 game_data = NeptunesPrideData(API_KEY, GAME_ID)
